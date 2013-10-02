@@ -1,0 +1,12 @@
+{
+  "name": "http-error",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "repository": "git://github.com/segmentio/http-error.git",
+  "dependencies": {
+    "to-pascal-case": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
