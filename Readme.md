@@ -8,7 +8,7 @@ Creates common **node**  HTTP errors, useful with `express.js`.
 var error = require('http-error');
 
 function middleware (req, res, next) {
-  if (!req.body) return next(error(400, 'No body specified'));
+  if (!req.body) return next(error(400, 'INVALID', 'No body specified'));
   // ..
 }
 ```
@@ -20,9 +20,9 @@ error(502) instanceof error.BadGateway;
 
 ## API
 
-### error(status, message, context)
+### error(status, code, message, context)
 
-Returns a new error with a `status` and optional `message` and `context`.
+Returns a new error with a `status` and optional `code`, `message` and `context`.
 
 ### error[Name]
 
