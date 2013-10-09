@@ -2,6 +2,10 @@
 
 Creates common **node**  HTTP errors, useful with `express.js`.
 
+## Installation
+
+    $npm install segmentio/http-error
+
 ## Example
 
 ```javascript
