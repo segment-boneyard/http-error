@@ -31,7 +31,7 @@ describe('error', function () {
 
   it('should have a default message', function () {
     var err = error(410);
-    assert(err.message === 'Resource Gone');
+    assert(err.message === 'Gone');
   });
 
   it('should have a stack trace', function () {
